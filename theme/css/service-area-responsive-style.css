@@ -1,0 +1,41 @@
+/* Portrait */
+@media (min-width: 320px) and (max-width: 567px) {
+  .nn-combo-left p {font-size: 16px;text-align: left !important;}
+  .nn-review-inner-cont .nn-combo-left,
+  .nn-review-inner-cont .nn-combo-right {width: 100%;}
+  .nn-review-inner-cont .nn-combo-left .nn-review-map-cont {width: 100%;margin-left: 0;}
+  .nn-review-inner-cont .nn-combo-left .nn-review-map-cont img {margin: auto;display: block;}
+  div.nn-review-header h3, div.nn-samap-header h3 {font-size: 20px !important;font-weight: bold;color: #000080;}
+  div.nn-review-header h4 span[itemprop="author"], div.nn-samap-header .nn-samap-near {font-size: 14px;color: #1a3c8b;}
+  div.nn-review-header h4 time, div.nn-samap-header h4 time {font-size: 14px;color: #a3a3a3;}
+  div.nn-review-star-wrapper {width: 50%;}
+  div.nn-review-rating-cat-name {width: 50%;font-size: 14px;max-width: 100%;font-weight: 600;}
+}
+
+/* Landscape */
+@media (min-width: 568px) and (max-width: 767px) {
+  .nn-combo-left p {font-size: 16px;text-align: left !important;}
+  .nn-review-inner-cont .nn-combo-left,
+  .nn-review-inner-cont .nn-combo-right {width: 100%;}
+  .nn-review-inner-cont .nn-combo-left .nn-review-map-cont {width: 100%;margin-left: 0;}
+  .nn-review-inner-cont .nn-combo-left .nn-review-map-cont img {margin: auto;display: block;}
+  div.nn-review-header h3, div.nn-samap-header h3 {font-size: 20px !important;font-weight: bold;color: #000080;}
+  div.nn-review-header h4 span[itemprop="author"], div.nn-samap-header .nn-samap-near {font-size: 14px;color: #1a3c8b;}
+  div.nn-review-header h4 time, div.nn-samap-header h4 time {font-size: 14px;color: #a3a3a3;}
+  div.nn-review-star-wrapper {width: 50%;}
+  div.nn-review-rating-cat-name {width: 50%;font-size: 14px;max-width: 100%;font-weight: 600;}
+}
+
+/* iPad portrait */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .nn-combo-left p {font-size: 16px;text-align: left !important;}
+  .nn-review-inner-cont .nn-combo-left,
+  .nn-review-inner-cont .nn-combo-right {width: 100%;}
+  .nn-review-inner-cont .nn-combo-left .nn-review-map-cont {width: 100%;margin-left: 0;}
+  .nn-review-inner-cont .nn-combo-left .nn-review-map-cont img {margin: auto;display: block;}
+  div.nn-review-header h3, div.nn-samap-header h3 {font-size: 20px !important;font-weight: bold;color: #000080;}
+  div.nn-review-header h4 span[itemprop="author"], div.nn-samap-header .nn-samap-near {font-size: 14px;color: #1a3c8b;}
+  div.nn-review-header h4 time, div.nn-samap-header h4 time {font-size: 14px;color: #a3a3a3;}
+  div.nn-review-star-wrapper {width: 50%;}
+  div.nn-review-rating-cat-name {width: 50%;font-size: 14px;max-width: 100%;font-weight: 600;}
+}

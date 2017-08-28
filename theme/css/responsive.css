@@ -1,0 +1,78 @@
+/* Responsive Start */
+
+/* 320 to 567 */
+@media (min-width: 320px) and (max-width: 567px) { 
+
+}
+
+/* 568 to 991 */
+@media (min-width: 568px) and (max-width: 991px) { 
+
+}
+
+/* iPhone 5 portrait  */
+@media (min-width: 320px) and (max-width: 374px) {
+
+}
+
+/* iPhone 6 portrait */
+@media (min-width: 375px) and (max-width: 383px) {
+
+}
+
+/* Android (Nexus 4) portrait */
+@media (min-width: 384px) and (max-width: 413px) {
+ 
+}
+
+/* iPhone 6 Plump portrait */
+@media (min-width: 414px) and (max-width: 567px) {
+ 
+}
+
+/* iPhone 5 landscape */
+@media (min-width: 568px) and (max-width: 599px) {
+
+}
+
+/* Android (Nexus 4) landscape */
+@media (min-width: 600px) and (max-width: 666px) {
+ 
+}
+
+/* iPhone 6 landscape */
+@media (min-width: 667px) and (max-width: 735px) {
+
+}
+
+/* iPhone 6 Plump landscape */
+@media (min-width: 736px) and (max-width: 767px) {
+
+}
+
+/* 768 to 991 */
+@media (min-width: 768px) and (max-width: 991px) { 
+
+}
+
+/* 992 to 1023 */
+@media (min-width: 992px) and (max-width: 1023px) { 
+
+}
+
+/* iPad landscape */
+@media only screen and (min-width: 1024px) and (max-width: 1024px) {
+
+}
+
+/* 1025 to 1199 */
+@media (min-width: 1025px) and (max-width: 1199px) { 
+
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+
+}
+
+/* Responsive End */
