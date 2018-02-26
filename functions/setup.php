@@ -30,7 +30,7 @@ function b4st_browser_body_class( $classes ) {
 	elseif($is_chrome) $classes[] = 'chrome';
 	elseif($is_IE) {
 		$browser = $_SERVER['HTTP_USER_AGENT'];
-		$browser = sub4str( "$browser", 25, 8);
+		$browser = substr( "$browser", 25, 8);
 		if ($browser == "MSIE 7.0"  ) {
 			$classes[] = 'ie7';
 			$classes[] = 'ie';
