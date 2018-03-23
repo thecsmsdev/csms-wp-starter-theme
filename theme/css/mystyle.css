@@ -317,3 +317,11 @@ img.aligncenter {
   padding: 5px 13px !important;
   text-align: left !important;
 }
+
+.powered-by {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.powered-by p {
+  margin-bottom: 0;
+}
