@@ -225,6 +225,23 @@ img {
   max-width: 100%;
 }
 
+img.alignleft {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+img.alignleft {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+img.aligncenter {
+  display: block;
+  margin: 0 auto 10px;
+}
+
 .main-header {
   margin-bottom: 50px;
 }
