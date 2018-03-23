@@ -325,3 +325,16 @@ img.aligncenter {
 .powered-by p {
   margin-bottom: 0;
 }
+
+.nivo-caption {
+  top: 50% !important;
+  right: 100px;
+  transform: translateY(-50%);
+  left: unset !important;
+  bottom: unset !important;
+  text-align: right;
+  width: 100%;
+  max-width: 465px;
+  background-color: transparent !important;
+  opacity: 1 !important;
+}
