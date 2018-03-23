@@ -1,12 +1,15 @@
-<footer class="container">
-  <hr/>
-	<div class="row">
-    <?php dynamic_sidebar('footer-widget-area'); ?>
-  </div>
-  <p class="text-center">&copy; <?php echo date('Y'); ?> <a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></p>
+<footer>
+  <div class="container">
+  	<div class="row">
+		<div class="col-sm-12">
+    			<?php dynamic_sidebar('footer-widget-area'); ?>
+		</div>
+  	</div>
   </div>
 </footer>
-
+<div class="powered-by container">
+	<p>Powered by: <strong><a href="http://thecsms.com/">Cornerstone Marketing Solutions</a></strong></p>
+</div>
 <?php wp_footer(); ?>
 </body>
 </html>
