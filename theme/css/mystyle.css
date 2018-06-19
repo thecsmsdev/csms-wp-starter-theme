@@ -164,8 +164,8 @@ Site footer
 
 @media (min-width: 1200px) {
   .container {
-    width: 1000px;
-    max-width: 100%;
+    max-width: 1180px;
+    width: 100%;
     margin: auto;
   }
 }
@@ -215,7 +215,10 @@ span {
   color: #000;
 }
 
-a {
+a,
+a:hover,
+a:focus,
+a:active {
   text-decoration: none;
   color: #000;
 }
@@ -231,7 +234,7 @@ img.alignleft {
   margin-bottom: 10px;
 }
 
-img.alignleft {
+img.alignright {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
