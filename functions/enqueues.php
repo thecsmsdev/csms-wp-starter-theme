@@ -11,6 +11,9 @@ function b4st_enqueues() {
 	wp_register_style('font-awesome-css', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css', false, '4.7.0', null);
 	wp_enqueue_style('font-awesome-css');
 
+	wp_register_style('fonts-css', get_template_directory_uri() . '/theme/css/fonts.css', false, null);
+	wp_enqueue_style('fonts-css');
+
   	wp_register_style('b4st-css', get_template_directory_uri() . '/theme/css/mystyle.css', false, null);
 	wp_enqueue_style('b4st-css');
 
