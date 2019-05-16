@@ -8,7 +8,7 @@
  */
 get_header(); ?>
 
-<div class="parallax-window" data-parallax="scroll" data-speed="0.1" data-bleed="10" data-natural-width="1601" data-image-src="<?php bloginfo('template_directory'); ?>/theme/img/banner-bg.jpg">
+<div>
 	<h1><?php the_title(); ?></h1>
 </div>
 
