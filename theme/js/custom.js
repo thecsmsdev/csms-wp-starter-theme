@@ -13,6 +13,11 @@
 		$('input[type=submit]').addClass('btn btn-primary');
 		
 		// You can put your own code in here
+		
+		//slide toggle
+		jQuery.fn.slideFadeToggle  = function(speed, easing, callback) {
+			return this.animate({opacity: 'toggle', height: 'toggle'}, speed, easing, callback);
+		};
 
 	});
 
