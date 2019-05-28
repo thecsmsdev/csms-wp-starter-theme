@@ -73,6 +73,22 @@ function start_lvl( &$output, $depth ) {
 }
 }
 
+//custom login
+function my_custom_login() {
+echo '<link rel="stylesheet" type="text/css" href="' . get_bloginfo('stylesheet_directory') . '/mystyle.css" />';
+}
+add_action('login_head', 'my_custom_login');
+
+add_filter( 'login_headerurl', 'custom_loginlogo_url' );
+function custom_loginlogo_url($url) {
+    return 'https://thecsms.com/';
+}
+
+function my_login_logo_url_title() {
+return 'The CSMS';
+}
+add_filter( 'login_headertitle', 'my_login_logo_url_title' );
+
 //Image Resizer
 require_once( get_stylesheet_directory() . '/aq_resizer.php');
 
