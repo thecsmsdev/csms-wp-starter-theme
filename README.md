@@ -10,7 +10,7 @@
     - Advanced Custom Fields
     - Contact Form 7
     - WP PageNavi
-    - SlickNav Mobile Menu (optional)
+    - ShiftNav (optional)
 
 **Simple WordPress starter theme loaded with Bootstrap 4.**
 
@@ -21,6 +21,5 @@
 * Simple, intuitive, clean code.
 * CSS, JS, functions and loops are organized into different folders.
 * **Bootstrap 4.0.0 alpha** – included CSS and JS enqueued.
-* **jQuery 3.2.1** (served by cdnjs.com  CDN) enqueued.
-* **Font Awesome** (served by cdnjs.com CDN) enqueued.
-* **Modernizr 3.5.0** (served by cdnjs.com CDN) enqueued.
+* **jQuery 3.3.1** (served by cdnjs.com  CDN) enqueued.
+* **Font Awesome 5.7.2** (served by cdnjs.com CDN) enqueued.
