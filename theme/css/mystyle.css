@@ -169,7 +169,7 @@ body.login {
 }
 
 .login h1 a {
-    background-image: url('/wp-content/themes/THEME-NAME/assets/images/csms-wordpress-logo.png');  
+    background-image: url('/wp-content/themes/INSERT-THEME-NAME-HERE/assets/images/csms-wordpress-logo.png');  
     background-size: 250px !important;
     height: 250px;
     width: 250px;
