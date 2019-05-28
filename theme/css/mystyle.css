@@ -160,6 +160,51 @@ Site footer
   text-align: center
 }
 
+
+/* CSMS Custom login */
+
+body.login {
+    background-position: center;
+    background-color:#4264ad;
+}
+
+.login h1 a {
+    background-image: url('/wp-content/themes/THEME-NAME/assets/images/csms-wordpress-logo.png');  
+    background-size: 250px !important;
+    height: 250px;
+    width: 250px;
+}
+
+.login .button-primary {
+    background-color: #2199e8 !important;
+    border: none;
+    text-shadow: none;
+    width: 100px;
+}
+
+.login .button-primary:hover {
+  background-color:#1583cc !important;
+}
+
+.login .button-primary:active {
+  background-color:#1583cc !important;
+}
+
+.login #backtoblog a, .login #nav a {
+    color:#fff;
+}
+
+.login #backtoblog a:hover, .login #nav a:hover {
+    color:#000;
+}
+
+.login form {
+    box-shadow: 3px 4px 4px rgba(0,0,0,0.2);
+}
+
+
+
+
 /* Set Default Width */
 
 @media (min-width: 1200px) {
@@ -237,6 +282,10 @@ img.aligncenter {
   display: block;
   margin: 0 auto 10px;
 }
+
+
+
+
 
 .main-header {
   margin-bottom: 50px;
